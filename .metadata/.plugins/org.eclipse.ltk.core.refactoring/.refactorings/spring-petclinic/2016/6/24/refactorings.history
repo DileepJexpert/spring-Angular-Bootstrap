@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;OwnerController.js&apos; to &apos;partials&apos;&#x0D;&#x0A;- Original project: &apos;spring-petclinic&apos;&#x0D;&#x0A;- Destination element: &apos;partials&apos;&#x0D;&#x0A;- Original element: &apos;OwnerController.js&apos;" description="Copy file" element1="build/classes/main/webapp/components/owners/OwnerController.js" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1465639377656" target="/border-Control/src/main/resources/static/app/partials" units="0" version="1.0"/>
+</session>

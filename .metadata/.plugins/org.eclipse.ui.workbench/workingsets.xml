@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1466526001526_0" label="ecommerce-website" name="ecommerce-website">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/admin" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ecommerce-website" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/site" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1467224990692_1" label="broadleaf" name="broadleaf">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/broadleaf-admin-functional-tests" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/broadleaf" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/broadleaf-contentmanagement-module" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/broadleaf-common" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/broadleaf-framework" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/broadleaf-framework-web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/integration" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/broadleaf-profile" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/broadleaf-profile-web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/broadleaf-admin-module" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/broadleaf-open-admin-platform" type="4"/>
+</workingSet>
+</workingSetManager>
