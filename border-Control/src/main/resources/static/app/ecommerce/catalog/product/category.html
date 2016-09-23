@@ -1,0 +1,147 @@
+  <script type="text/javascript">
+$(document).ready(function(){
+    $(".show-text").click(function(){
+    	$('#myModal').find(".lots-of-text").toggle();
+        $('#myModal').modal('handleUpdate');
+    });
+});
+</script>
+<style type="text/css">
+.bs-example{
+	margin: 20px;
+}
+.lots-of-text{
+    display: none;
+}
+</style> 
+    <div class="panel panel-default panel-table">
+        <div class="panel-heading">
+                <div class="row">
+                  <div class="col col-xs-6">
+                    <h3 class="panel-title text-primary page-header">{{categroies}}</h3>
+                  </div>
+                  <div class="col col-xs-6 text-right">
+                    <button type="button" data-toggle="modal" data-target="#myModal"  class="btn btn-sm btn-primary btn-create">Create New</button>
+                  </div>
+                </div>
+              </div>
+  <div class="panel-body">
+
+    <table st-persist="myTable" st-table="rowCollection" class="table table-striped table-bordered table-list">
+	<thead>
+	<tr>
+		<th st-sort="firstName">first name</th>
+		<th st-sort="lastName">last name</th>
+		<th st-sort="age">age</th>
+		<th st-sort="email">email</th>
+		<th st-sort="balance">balance</th>
+		<th align="center"><em class="fa fa-cog"></em></th>
+	</tr>
+	<tr>
+		<th colspan="7">
+			<input st-search placeholder="global search..." class="input-sm form-control"
+						 type="search"/>
+		</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr ng-repeat="row in rowCollection">
+		<td>{{row.firstName}}</td>
+		<td>{{row.lastName | uppercase}}</td>
+		<td>{{row.age}}</td>
+		<td>{{row.email}}</td>
+		<td>{{row.balance | currency}}</td>
+		    <td align="center">
+       <a  ui-sref="categoryDetails" class="btn btn-default"><em class="fa fa-pencil"></em></a>
+                              <a class="btn btn-danger"><em class="fa fa-trash"></em></a>
+                            </td>
+	</tr>
+	</tbody>
+	<tfoot>
+	<tr>
+		<td colspan="7" class="text-center">
+		 	<div st-pagination="" st-items-by-page="10" st-displayed-pages="7"></div>
+		</td>
+	</tr>
+	</tfoot>
+</table>
+ </div>
+ </div>
+ 
+
+ <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header panel-primary">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Re-adjustable Modal</h4>
+                </div>
+                <div class="modal-body">
+                    <p><button type="button" class="btn btn-link show-text">Click me to load lots of text in this modal.</button>
+                    </p><div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Ok, I got it</button>
+                </div></div></div></div></div>
+                
+              
+
+
+  
+        <div class="col-md-10 col-md-offset-1">
+
+            <div class="panel panel-default panel-table">
+              <div class="panel-heading">
+                <div class="row">
+                  <div class="col col-xs-6">
+                    <h3 class="panel-title">Panel Heading</h3>
+                  </div>
+                  <div class="col col-xs-6 text-right">
+                    <button type="button" class="btn btn-sm btn-primary btn-create">Create New</button>
+                  </div>
+                </div>
+              </div>
+              <div class="panel-body">
+                <table class="table table-striped table-bordered table-list">
+                  <thead>
+                    <tr>
+                        <th><em class="fa fa-cog"></em></th>
+                        <th class="hidden-xs">ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                    </tr> 
+                  </thead>
+                  <tbody>
+                          <tr>
+                            <td align="center">
+                              <a class="btn btn-default"><em class="fa fa-pencil"></em></a>
+                              <a class="btn btn-danger"><em class="fa fa-trash"></em></a>
+                            </td>
+                            <td class="hidden-xs">1</td>
+                            <td>John Doe</td>
+                            <td>johndoe@example.com</td>
+                          </tr>
+                        </tbody>
+                </table>
+            
+              </div>
+              <div class="panel-footer">
+                <div class="row">
+                  <div class="col col-xs-4">Page 1 of 5
+                  </div>
+                  <div class="col col-xs-8">
+                    <ul class="pagination hidden-xs pull-right">
+                      <li><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#">4</a></li>
+                      <li><a href="#">5</a></li>
+                    </ul>
+                    <ul class="pagination visible-xs pull-right">
+                        <li><a href="#">«</a></li>
+                        <li><a href="#">»</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+</div>

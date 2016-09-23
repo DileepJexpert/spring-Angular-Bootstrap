@@ -1,0 +1,74 @@
+<div class="navbar navbar-default navbar-fixed-top">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a ui-sref="login">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Entry/Exist<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a ui-sref="entryPermit">Entry</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Visa/Permit<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                  <li class="dropdown">
+                <a  ng-click="myFunction()" class="dropdown-toggle" data-toggle="dropdown">Ecommerce<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a ui-sref="catalog">ProductSearch</a></li>
+                        <li><a href="#">Shopping</a></li>
+                        <li><a ui-sref="category">AddCategory</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">AddOffer</li>
+                        <li><a href="#">future</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">UserAccount<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a ui-sref="users" >users</a></li>
+                        <li><a ui-sref="home" >createusers</a></li>
+                        <li><a ui-sref="home" >orders</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+         
+  <ul class="nav navbar-nav navbar-right">
+                <li><a ui-sref="login">Login</a></li>
+                <li><a  href ="#" ng-click="onLogout()">logout</a></li>
+                <li><a href="#contact">settings</a></li>
+                </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+
+
